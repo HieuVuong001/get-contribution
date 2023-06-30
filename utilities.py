@@ -11,17 +11,29 @@ def get_log(filename='gitlog.txt'):
             subprocess.run(['rm', filename])
             return 1
 
-def process_log(filename):
+def process_log(filename, github_user=None):
     dates = []
     day_map = {}
 
     hour_pattern = '\d+:\d+:\d+'
     day_pattern = '\w+ \w+ \d+'
+    username_pattern = ' .+ '
+
+    if github_user is None:
+        with open(filename) as f:
+            for line in f:
+                if line[:4] == 'Date':
+                    dates.append(line[5:].strip())
 
     with open(filename) as f:
-        for line in f.readlines():
-            if line[:4] == 'Date':
-                dates.append(line[5:].strip())
+        for line in f:
+            if line[:6] == 'Author':
+                username = re.search(username_pattern, line).group(0).strip()
+                if username == github_user:
+                    date_line = f.readline()
+                    dates.append(date_line[5:].strip())
+
+
 
     for date in dates[::-1]:
         day = re.search(day_pattern, date).group(0)
