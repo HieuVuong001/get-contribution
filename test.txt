@@ -1,0 +1,347 @@
+commit 45599fdadaee7f4cc072492b0871809b880f353f
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 28 16:23:53 2023 -0700
+
+    UI fix
+
+commit 4b79eb57fc55d3b6db985e727b04f64aa33cbb67
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 28 15:53:51 2023 -0700
+
+    Fix layout on smaller devices. Change main color of the site
+
+commit 7ddf735e34caf1f3200485c349680a6960de34e9
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 28 14:09:13 2023 -0700
+
+    Change font
+
+commit 27f76cb2e3ac7dd3556fc9d141bf580b92c4e834
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 17:00:08 2023 -0700
+
+    Add refresh functionality
+
+commit 822596d4c517e473388ad057c6640f16fd4722af
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 16:55:12 2023 -0700
+
+    Also save temporary plan along with locked plan in stores
+
+commit b9ca1520498635304ffb38ac1d3bb4102e4ae318
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 16:21:30 2023 -0700
+
+    Unsubscribes from stores and clean up code
+
+commit d303039a8e9777f233072703952feaae14c93953
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 15:59:27 2023 -0700
+
+    Plans don't refresh after users leave home page.
+
+commit 0e524d6832eafa58abfe64b29a1bc824609e9e2a
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 15:19:26 2023 -0700
+
+    Bug fixing
+
+commit b5a2fe53a9b941844f6ed4cf54174adf670ea288
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 27 15:12:49 2023 -0700
+
+    Move user preference section into the box
+
+commit db35d259faae0d29a9297811c169fa479760e561
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 26 18:36:07 2023 -0700
+
+    Update delete functionality
+
+commit 82e64a67ffaeb38b4ea49b2b73de9e0762e4f632
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 26 17:32:24 2023 -0700
+
+    Revamp UI for better UX
+
+commit 809fec7c40591d172822fcb5f305bc54fb58cd44
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Thu Jun 22 17:56:41 2023 -0700
+
+    User can reroll recipe to their liking
+
+commit ca2cebd2a72e927572768c63477f210825398ae3
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Thu Jun 22 14:45:23 2023 -0700
+
+    Add reroll functionality on each day of the menu
+
+commit 8100918a8a2aa2e631dac3ac8d84add6d0038685
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 21 20:10:30 2023 -0700
+
+    Add simple animation on Collapsible
+
+commit 55dd299b1bc7a588a2c87b280455d7651476eb22
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 21 09:58:13 2023 -0700
+
+    Pull data from writeable store to front page.
+
+commit 987b91cb540814d5bc2d50dc306493e4ae88a80f
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 21 08:53:46 2023 -0700
+
+    Minor UI fix
+
+commit fa184338b41df4a5cf3e4812f853a0e931ee37fd
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 22:58:34 2023 -0700
+
+    Clean up.
+
+commit df380e38b4ff2caa0c7920b819750ec16a28d064
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 17:03:25 2023 -0700
+
+    Update refresh recipe lists
+
+commit 4ad08d880928c671a54343486b6cb64c3c29fbb3
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 16:26:20 2023 -0700
+
+    Recipe list refreshes after POST
+
+commit b9adb757b713f2b8cb4cfac0b2eddf09145e56d8
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 15:42:53 2023 -0700
+
+    Add update route
+
+commit 5347bbd1ad858b2df80208663a034b979090a242
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 14:20:18 2023 -0700
+
+    Prepare UI for editing data
+
+commit fa080d05f4aa50906547696da5de603e794f626e
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 12:40:15 2023 -0700
+
+    Add delete functionality and update UI
+
+commit 7eaeabaa1de18d1283fff407f001d788b9e16a2b
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 11:18:23 2023 -0700
+
+    Support DELETE
+
+commit cc83beeec104ed16593deaf8d83e7c5338d38a93
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 10:56:05 2023 -0700
+
+    UI fix
+
+commit f25e6144b5ff58f9689817b0e7016b7337bf8502
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 10:52:04 2023 -0700
+
+    Pull recipes from API to display.
+
+commit 37c4e845bd08d06bbb112408b0d7a24a24c8e509
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 20 10:39:13 2023 -0700
+
+    Add required attribute for inputs.
+
+commit 9852ccb1c08a32f4ee07dc9a4dac201454b4ffdf
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 19 21:01:55 2023 -0700
+
+    StFixes a bug so star rating can reflect rating by default. Form can notice user of wrongly submitted input field
+
+commit 45d9111d38cc7f8db38f70c3c4db790dffd167d3
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 19 16:38:03 2023 -0700
+
+    Post data to API. Input field resets after submission. Form keeps opening if there is problem submitting.
+
+commit 14ab7ef09ed8fa4e817f7d9ca2034e1c14b50c29
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Sun Jun 18 21:20:03 2023 -0700
+
+    Can make POST request to API
+
+commit a1df9b88feab508d9e35d5989313f76fb78d171b
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Sun Jun 18 16:53:32 2023 -0700
+
+    Submit also close modal. Trying to send data to API
+
+commit 40c566a6c7bc1f5f679d87c1af842b66ea2b9a5b
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Fri Jun 16 22:08:30 2023 -0700
+
+    Add submit button to form. Fix rating binding from StarRating component
+
+commit 8109385845e2b1c57a5d53486d249caa7cf61376
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Fri Jun 16 19:38:58 2023 -0700
+
+    Add star rating and form input
+
+commit fca35e5a443fe8e896b1096b0ea60163d07ac389
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Fri Jun 16 15:42:38 2023 -0700
+
+    Change color of button and collapsible
+
+commit 07cb3575880e8c1f21b55eea2bbc3df579890445
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Fri Jun 16 14:51:24 2023 -0700
+
+    Make resposive on mobile device. Add collapsible for displaying recipes.
+
+commit 028dd5a6683e4ffdc84e2dd7193bef822046ae86
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 13 20:09:22 2023 -0700
+
+    Add fontawesome and footer. Modify recipe page.
+
+commit 5e2f6450f86f6067be192900c41b370a35c84ade
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 13 16:03:05 2023 -0700
+
+    Update button look.
+
+commit b0a9e2ca29a6b45caa1198799131976fc174a599
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 13 15:57:46 2023 -0700
+
+    Modify User and Recipe schema. Can read User and create User/Recipe
+
+commit 2bfb04ca3e93193268ce0cf8f1614b0a50d4fdbc
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 13 15:08:21 2023 -0700
+
+    Can add user with dummy hashed password.
+
+commit c2b58eae3e6d2b15c1e50894a189c0cbe39ee376
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Tue Jun 13 14:45:06 2023 -0700
+
+    Can read one user.
+
+commit 6534e7cb9bcd87c54186f5c5f25301d015ac1659
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 12 22:11:16 2023 -0700
+
+    Add requirements and set up read user
+
+commit a3b5fee80dc4d6d00719af5719ffd3ecaed79517
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon Jun 12 20:57:59 2023 -0700
+
+    Working on CRUD with tester file.
+
+commit 570e5f1d298259140a7aa6dc3b2ed1476c2a9afc
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Sun Jun 11 13:00:48 2023 -0700
+
+    Set up FastAPI for backend.
+
+commit 772221f4f22b19bf0dd16d08bcce4705323a861e
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Thu Jun 8 14:01:45 2023 -0700
+
+    Add sample content to menu.
+
+commit 2522066946a17a69f66922c756e1ecaf24053d7d
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 7 16:21:32 2023 -0700
+
+    Add button component and some content
+
+commit ffe0db725dd966228e84b5a2ad34a4f4e55d014f
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 7 15:03:11 2023 -0700
+
+    Refactor Navigation bar into a component.
+
+commit 2f60f143ff7791ea54e5588fafe2dc2bfd4c28c8
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Wed Jun 7 15:00:04 2023 -0700
+
+    Add navbar layout and odummy routes.
+
+commit ee1f1ee5a45a145b8fd7ff85f069114c9f49a1c5
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Fri Jun 2 18:49:26 2023 -0700
+
+    Add components and basic layout.
+
+commit 5e073b1c9fff485d4c9aad57184da43b0392578c
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon May 29 15:11:37 2023 -0700
+
+    Set up web UI.
+
+commit ffbcb46bb98c2c7c29865be7cfc60749cc2876d4
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Mon May 29 15:09:39 2023 -0700
+
+    Remove frontend
+
+commit 206a45bbb521ae0ba8c73d8f3ba18a9051da6027
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Wed Feb 15 10:07:18 2023 -0800
+
+    Fixes #3. Recipe shows dummy ingredients list.
+
+commit d011f2574caf5396bc30b00c396f3437f0c57168
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Wed Feb 15 09:17:27 2023 -0800
+
+    Fixes #4
+
+commit 8d0d30f82f44830692cb580304a6ee13fb67b8d4
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Tue Feb 14 14:49:24 2023 -0800
+
+    Fixes #2. Add mock data and api via JSONServer
+
+commit c7f182f87fa6a6c5b6f6a342be6214b46554f2b1
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Tue Feb 14 10:51:53 2023 -0800
+
+    Fixes #1
+
+commit 6238e36778ec1609b716b2610523eb05e3148c61
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Mon Feb 13 17:15:44 2023 -0800
+
+    Add new routes and sample meal plan table.
+
+commit 7d46c128d5d7fb1b9189c1648dbe2f9c96568f69
+Author: HieuVUong <hieuvuong@pop-os.localdomain>
+Date:   Mon Feb 13 10:23:49 2023 -0800
+
+    Add Svelte and DaisyUI for frontend.
+
+commit b56bd04888041c06410a09198b0d5da17c334eab
+Author: Hieu Vuong <tvuong5@dons.usfca.edu>
+Date:   Sun Jan 8 00:50:58 2023 -0800
+
+    Add frontend
+
+commit 9e8af2a594293fe6f09bdd36bcebf1da53c2c08d
+Author: Hieu Vuong <60205090+HieuVuong001@users.noreply.github.com>
+Date:   Fri Jan 6 17:15:47 2023 -0800
+
+    Update README.md
+
+commit 0080dcda8f6896bb65dd3af545b5220bcad3f09d
+Author: Hieu Vuong <60205090+HieuVuong001@users.noreply.github.com>
+Date:   Fri Jan 6 16:58:59 2023 -0800
+
+    Initial commit
