@@ -1,13 +1,16 @@
 import subprocess
 import re
+from rich.console import Console
+
+console = Console()
 
 def get_log(filename='gitlog.txt'):
     with open(filename, 'w') as f:
         try:
-            subprocess.run(['git', 'log'], stdout=f, check=True)
+            subprocess.run(['git', 'log'], stdout=f)
             return 0
         except Exception:
-            print("Cannot get git to run. Are you in a git repository? Did you forget to install git?")
+            console.print("Cannot get git to run. Are you in a git repository? Did you forget to install git?", style='red')
             subprocess.run(['rm', filename])
             return 1
 
@@ -86,7 +89,7 @@ def get_total_coding_time(day_map):
     return total
 
 def format_coding_time(coding_time):
-    return f'{coding_time // 60} hours, {coding_time - 60 * (coding_time // 60)} minute.'
+    return console.print(f'{coding_time // 60} hours, {coding_time - 60 * (coding_time // 60)} minute.')
 
 def clean_up(filename):
     subprocess.run(['rm', filename])
