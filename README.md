@@ -3,7 +3,7 @@
 requires `python >= 3.10`
 
 ## Install
-`pip install git_time`
+`pip install get-contribution`
 
 ## Usage
 <br> `get-contribution`
