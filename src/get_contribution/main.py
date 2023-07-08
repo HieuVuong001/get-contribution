@@ -1,4 +1,4 @@
-from utilities import *
+from get_contribution.utilities import *
 import uuid
 import typer
 from typing import Optional
@@ -6,6 +6,9 @@ from typing import Optional
 EXIT_FAILURE = 1
 DEFAULT_FILENAME = f'{uuid.uuid4().hex[:6]}.txt'
 
+app = typer.Typer()
+
+@app.command()
 def main(username: Optional[str] = typer.Argument(default=None)):
     if get_log(DEFAULT_FILENAME) == 1:
         raise typer.Exit(EXIT_FAILURE)
@@ -21,5 +24,5 @@ def main(username: Optional[str] = typer.Argument(default=None)):
 
     clean_up(DEFAULT_FILENAME)
 
-if __name__ == '__main__':
-    typer.run(main)
+if __name__ == "__main__":
+    app()
