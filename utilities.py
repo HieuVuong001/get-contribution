@@ -1,6 +1,7 @@
 import subprocess
 import re
 from rich.console import Console
+from rich.progress import track
 
 console = Console()
 
@@ -24,12 +25,12 @@ def process_log(filename, github_user=None):
 
     if github_user is None:
         with open(filename) as f:
-            for line in f:
+            for line in track(f.readlines(), description="Reding file..."):
                 if line[:4] == 'Date':
                     dates.append(line[5:].strip())
 
     with open(filename) as f:
-        for line in f:
+        for line in track(f.readlines(), description="Reding file..."):
             if line[:6] == 'Author':
                 username = re.search(username_pattern, line).group(0).strip()
                 if username == github_user:
