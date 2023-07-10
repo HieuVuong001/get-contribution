@@ -106,7 +106,7 @@ def get_time_diff(start: List[int], end: List[int]) -> int:
     return result
 
 
-def get_total_time_diff(time_vec: List[List[int]]):
+def get_total_time_diff(time_vec: List[List[int]]) -> int:
     """Get total coding time in a day given a list of time.
 
     Args:
@@ -119,7 +119,7 @@ def get_total_time_diff(time_vec: List[List[int]]):
         int: total coding time in a day based on pushes.
     """
     total_time = 0
-    print(time_vec)
+
     for i in range(len(time_vec)):
         if i + 1 == len(time_vec):
             break
@@ -148,7 +148,7 @@ def get_coding_time_in_day(day: List[str]) -> int:
     return total_time
 
 
-def get_total_coding_time(day_map):
+def get_total_coding_time(day_map: Dict[str, List[str]]) -> int:
     """Get total coding time in the whole repository.
 
     Arg:
@@ -164,7 +164,7 @@ def get_total_coding_time(day_map):
     return total
 
 
-def format_coding_time(coding_time):
+def format_coding_time(coding_time: int) -> str:
     """Convert minutes into hours for displaying.
 
     Args:
@@ -173,13 +173,12 @@ def format_coding_time(coding_time):
     Returns:
         String representation of total coding time.
     """
-    return console.print(
-        f'{coding_time // 60} hours, \
-          {coding_time - 60 * (coding_time // 60)} minute.'
-        )
+    hours = coding_time // 60
+    minutes = coding_time - 60 * (coding_time // 60)
+    return console.print(f'{hours} hours, {minutes} minutes.')
 
 
-def clean_up(filename):
+def clean_up(filename: str) -> None:
     """Remove newly created file to write log output into.
 
     Args:
