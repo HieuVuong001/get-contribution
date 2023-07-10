@@ -81,7 +81,7 @@ def process_log(filename: str, github_user=None) -> Dict[str, List[str]]:
         if day not in day_map:
             day_map[day] = []
         day_map[day].append(time)
-  
+
     return day_map
 
 
@@ -106,9 +106,20 @@ def get_time_diff(start: List[int], end: List[int]) -> int:
     return result
 
 
-def get_total_time_diff(time_vec):
-    # [[1,2], [3,4], [4,5]]
+def get_total_time_diff(time_vec: List[List[int]]):
+    """Get total coding time in a day given a list of time.
+
+    Args:
+        time_vec: time of pushes in a day.
+        2D list [[start, end], ...]
+        Example:
+        [[10, 20], [13, 40], [20, 20]]
+
+    Returns:
+        int: total coding time in a day based on pushes.
+    """
     total_time = 0
+    print(time_vec)
     for i in range(len(time_vec)):
         if i + 1 == len(time_vec):
             break
@@ -117,7 +128,15 @@ def get_total_time_diff(time_vec):
     return total_time
 
 
-def get_coding_time_in_day(day):
+def get_coding_time_in_day(day: List[str]) -> int:
+    """Get coding time in a day based on pushes.
+
+    Args:
+        day: List of pushes time in a day raw string format.
+
+    Returns:
+        total coding time in a day as an integer.
+    """
     time_vec = []
 
     for time in day:
@@ -130,6 +149,14 @@ def get_coding_time_in_day(day):
 
 
 def get_total_coding_time(day_map):
+    """Get total coding time in the whole repository.
+
+    Arg:
+        day_map: A dicionary with day and time of pushes.
+
+    Returns:
+        Total coding time in the whole log as an integer.
+    """
     total = 0
     for day in day_map.keys():
         total += get_coding_time_in_day(day_map[day])
@@ -138,6 +165,14 @@ def get_total_coding_time(day_map):
 
 
 def format_coding_time(coding_time):
+    """Convert minutes into hours for displaying.
+
+    Args:
+        coding_time: total coding time in the whole repository, as int.
+
+    Returns:
+        String representation of total coding time.
+    """
     return console.print(
         f'{coding_time // 60} hours, \
           {coding_time - 60 * (coding_time // 60)} minute.'
@@ -145,4 +180,9 @@ def format_coding_time(coding_time):
 
 
 def clean_up(filename):
+    """Remove newly created file to write log output into.
+
+    Args:
+        filename: name of file to remove.
+    """
     subprocess.run(['rm', filename])
