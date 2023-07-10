@@ -8,13 +8,12 @@ requires `python >= 3.10`
 ## Usage
 <br> `get-contribution`
 
-Additionally, you can provide an *optional username* argument to yield the contribution of a specific user. <br> <br>
+Additionally, you can provide an *optional username* to yield the contribution of a specific user. <br> <br>
 `get-contribution 'John Doe'` 
 
 ## Demo
-![render1688854053340](https://github.com/HieuVuong001/get-contribution/assets/60205090/01ab9fda-189b-472b-96aa-b0f2608bd280)
+![demo_get-contribution](https://github.com/HieuVuong001/get-contribution/assets/60205090/9fe1fe9f-d7a9-45d0-afa4-1d1dce12d8e2)
 
-![render1688854510835](https://github.com/HieuVuong001/get-contribution/assets/60205090/c47d1507-a1df-4795-a1f3-545fb3b93353)
 
 ## Algorithms
 The algorithm is very simple. It calculates the time spent in a repo based on the number of times people have pushed to it.
